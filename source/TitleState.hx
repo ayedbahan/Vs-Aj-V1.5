@@ -578,7 +578,10 @@ class TitleState extends MusicBeatState
 					createCoolText(['Psych Engine by'], 15);
 					#else
 					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+				        #else
+					createCoolText(['ayed', 'aj', 'Xxsans', 'more on credits']);
 					#end
+					//holy shit that's soo hard
 				// credTextShit.visible = true;
 				case 3:
 					#if PSYCH_WATERMARKS
@@ -624,13 +627,13 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 13:
-					addMoreText('Friday');
+					addMoreText('Vs');
 				// credTextShit.visible = true;
 				case 14:
-					addMoreText('Night');
+					addMoreText('Aj');
 				// credTextShit.text += '\nNight';
 				case 15:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('demon'); // credTextShit.text += '\nFunkin';
 
 				case 16:
 					skipIntro();
